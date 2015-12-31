@@ -4,7 +4,7 @@
 @support-ie-version: 7;
 @use-autoprefixer: false;
 @support-html5: true;
-@default-text-color:#6c6c6c;
+@default-text-color:#3b473f;
 @default-input-placeholder-color:#999;
 @default-base-font-family:"SimSun", Arial, sans-serif;
 @default-heading-font-family:"Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -32,6 +32,75 @@ body {
         sans-serif;
         color: #000;
         font-size: 14px;
-        background:#FFE501;
+        background:#f4edeb;
 
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+table {
+    .reset-table();
+}
+td, th {
+    .reset-table-cell();
+}
+ul, ol,li {
+    .reset-list-style();
+}
+textarea {
+    .placeholder(lightblue);
+}
+
+// float layout
+.l-left{
+    float: left;
+}
+.l-right{
+    float: right;
+}
+.l-float{
+    .clearfix();
+}
+
+.mb{
+    margin-bottom: 8px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.ml24{
+    margin-left: 24px;
+}
+.mr8{
+    margin-right: 8px;
+}
+.mr14{
+    margin-right: 14px;
+}
+.mr24{
+    margin-right: 24px;
+}
+.nav{
+    background: #fff;
+    color: #084f23;
+    font-size: 20px;
+    text-align: center;
+    .centered-line(58px);
+}
+.container{
+    .est-layout-page(100%);
+    padding-bottom: 34px;
+}
+.mian{
+    .est-layout-page(1200px);
 }
