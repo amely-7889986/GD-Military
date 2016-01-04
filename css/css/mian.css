@@ -263,7 +263,7 @@ body {
   background: #f4edeb;
 }
 a {
-  color: #666;
+  color: #113d2b;
   text-decoration: none;
 }
 table {
@@ -804,12 +804,17 @@ textarea:-ms-input-placeholder {
 .l-list-item1 .item-info .info-tit {
   display: inline-block;
   margin-top: 14px;
-  color: #084f23;
   font-size: 18px;
   height: 24px;
   line-height: 24px;
   background: url(../../images/icon-point.png) left no-repeat;
   text-indent: 8px;
+}
+.l-list-item1 .item-info .info-tit a {
+  color: #084f23;
+}
+.l-list-item1 .item-info .info-tit a:hover {
+  text-decoration: underline;
 }
 .l-list-item1 .item-info .info-source {
   display: inline-block;
@@ -881,9 +886,11 @@ textarea:-ms-input-placeholder {
   left: 24px;
   font-size: 18px;
   line-height: 40px;
-  color: #f4edeb;
   text-indent: 14px;
   background: rgba(0, 0, 0, 0.8);
+}
+.l-list-item2 .item-lay-tit a {
+  color: #f4edeb;
 }
 .l-item-b ul {
   display: inline-block;
