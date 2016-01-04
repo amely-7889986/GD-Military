@@ -1237,14 +1237,13 @@ textarea:-ms-input-placeholder {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  overflow: visible;
   display: block;
   background: #113d2b url(../../images/login-bg.png) center center no-repeat;
 }
 .login-section {
   background: rgba(255, 255, 255, 0.8);
   display: block;
-  margin: 80px auto;
+  margin: 40px auto;
   width: 420px;
   height: auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -1323,7 +1322,7 @@ textarea:-ms-input-placeholder {
 }
 .login-logo {
   display: block;
-  margin-top: 120px;
+  margin-top: 60px;
   text-align: center;
 }
 .login-info select {
@@ -1342,4 +1341,28 @@ textarea:-ms-input-placeholder {
 .login-info select option {
   display: inline-block;
   color: #113d2b;
+  border: none;
+  line-height: 38px;
+  padding-right: 18px;
+}
+.login-info .btn-register {
+  display: inline-block;
+  width: 380px;
+  height: 48px;
+  margin-top: 16px;
+}
+.login-info .btn-register a {
+  float: left;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 12px 60px;
+  border-radius: 5px;
+}
+.login-info .btn-register .btn-sign {
+  background: #8f4306;
+  margin-right: 32px;
+}
+.login-info .btn-register .btn-resect {
+  background: #113d2b;
 }
