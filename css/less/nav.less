@@ -4,29 +4,30 @@
         display: block;
         width: 149px;
         height: 58px;
-        a{
+        span{
+            display: inline-block;
+            margin-top: 12px;
             height: 34px;
             width: 150px;
             line-height: 34px;
-            margin-top: 12px;
-            display: block;
             border-right: 1px solid #113d2b;
         }
     }
-    :hover{
+    a:hover{
+        display: block;
+        height: 58px;
+        width: 150px;
+        line-height: 58px;
         background: #084f23;
         border-right: none !important;
         transition:.2s ease-out;
         cursor:pointer;
         white-space:nowrap;
-        a:hover{
-            color: #fff;
-            background: none;
-        }
+        color: #fff;
     }
     .active{
         width: 150px;
-        line-height: 34px;
+        line-height: 58px;
         background: #084f23 !important;
         a{
             color: #fff !important;

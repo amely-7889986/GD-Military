@@ -105,7 +105,7 @@
 					}
 					else
 					{
-						$(settings.modulid+' ul').animate({'marginTop':-($(settings.modulid+' ul li').height()+68)*(activenewsid-1)});
+						$(settings.modulid+' ul').animate({'marginTop':-($(settings.modulid+' ul li').height()+0)*(activenewsid-1)});
 					}
 				}
 				
