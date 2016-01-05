@@ -1237,7 +1237,10 @@ textarea:-ms-input-placeholder {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  height: 100%;
+  position: absolute;
   display: block;
+  background-size: 100%;
   background: #113d2b url(../../images/login-bg.png) center center no-repeat;
 }
 .login-section {
@@ -1280,6 +1283,9 @@ textarea:-ms-input-placeholder {
 }
 .login-section .login-info .login-key {
   background: url(../../images/icon-key.png) 8px center no-repeat;
+}
+.login-section .login-info .account {
+  background: url(../../images/icon-account.png) 8px center no-repeat;
 }
 .login-section .login-info .confirm {
   display: inline-block;
@@ -1344,6 +1350,12 @@ textarea:-ms-input-placeholder {
   border: none;
   line-height: 38px;
   padding-right: 18px;
+}
+.login-info .course {
+  background: url(../../images/icon-course.png) 8px center no-repeat;
+}
+.login-info .identity {
+  background: url(../../images/icon-identity.png) 8px center no-repeat;
 }
 .login-info .btn-register {
   display: inline-block;
