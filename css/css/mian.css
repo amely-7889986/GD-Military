@@ -792,7 +792,7 @@ textarea:-ms-input-placeholder {
   display: inline-block;
   margin-right: 16px;
 }
-.l-list-item1 .item-pic {
+.l-list-item1 .item-pic img {
   display: inline-block;
   width: 230px;
   height: 154px;
@@ -1265,12 +1265,13 @@ textarea:-ms-input-placeholder {
 }
 .login-section .login-info {
   padding: 0 20px;
+  background: #fff;
 }
-.login-section .login-info input {
+.login-section .login-info > input {
   width: 380px;
   height: 48px;
   display: inline-block;
-  background: none;
+  background: #fff;
   border: none;
   border-bottom: 1px solid #113d2b;
   margin-top: 20px;
@@ -1341,8 +1342,8 @@ textarea:-ms-input-placeholder {
   margin-top: 20px;
   line-height: 48px;
   font-size: 18px;
-  text-indent: 48px;
   color: #113d2b;
+  padding-left: 48px;
 }
 .login-info select option {
   display: inline-block;
