@@ -1200,6 +1200,35 @@ textarea:-ms-input-placeholder {
 .col-num-link .num a {
   width: 28px;
 }
+.col-teaminfo {
+  padding: 8px 18px;
+}
+.col-teaminfo table td {
+  border: 1px solid #113d2b;
+}
+.col-teaminfo table .w60 {
+  width: 60px;
+}
+.col-teaminfo table .w100 {
+  width: 100px;
+}
+.col-teaminfo table .w160 {
+  width: 160px;
+}
+.col-teaminfo table .col-t-tit {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #113d2b;
+}
+.col-teaminfo table .col-t-in {
+  text-indent: 8px;
+}
+.col-teaminfo table .col-t-txt {
+  line-height: 24px;
+  text-indent: 32px;
+  padding: 8px 8px;
+}
 .info {
   display: inline-block;
   padding: 16px 8px;
