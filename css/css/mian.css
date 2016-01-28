@@ -1203,8 +1203,17 @@ textarea:-ms-input-placeholder {
 .col-teaminfo {
   padding: 8px 18px;
 }
+.col-teaminfo table {
+  display: block;
+  width: 842px;
+}
 .col-teaminfo table td {
   border: 1px solid #113d2b;
+}
+.col-teaminfo table .h300 {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
 }
 .col-teaminfo table .w60 {
   width: 60px;
@@ -1214,6 +1223,12 @@ textarea:-ms-input-placeholder {
 }
 .col-teaminfo table .w160 {
   width: 160px;
+}
+.col-teaminfo table .w220 {
+  width: 220px;
+}
+.col-teaminfo table .w604 {
+  width: 604px;
 }
 .col-teaminfo table .col-t-tit {
   text-align: center;
@@ -1225,6 +1240,7 @@ textarea:-ms-input-placeholder {
   text-indent: 8px;
 }
 .col-teaminfo table .col-t-txt {
+  display: inline-block;
   line-height: 24px;
   text-indent: 32px;
   padding: 8px 8px;
@@ -1261,6 +1277,11 @@ textarea:-ms-input-placeholder {
 .info .page-img {
   margin: 14px auto;
   text-align: center;
+  max-width: 800px;
+  overflow: hidden;
+}
+.info .page-img img {
+  max-width: 800px;
 }
 .login-bg {
   width: 100%;
@@ -1272,8 +1293,16 @@ textarea:-ms-input-placeholder {
   background-size: 100%;
   background: #113d2b url(../../images/login-bg.png) center center no-repeat;
 }
+.login {
+  float: none;
+  text-align: center\9;
+}
 .login-section {
   background: rgba(255, 255, 255, 0.8);
+  background: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: relative\9;
   display: block;
   margin: 40px auto;
   width: 420px;
